@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import 'bulma/css/bulma.css';
 import './App.css';
 
 class App extends Component {
@@ -46,10 +47,10 @@ class App extends Component {
     if (this.state.showAllTimeGreatest) {
       return (
         <div className="App">
-          <table>
+          <table className="table">
             <tbody>
               <tr>
-                <th>Leaderboard</th>
+                <th className="title">Leaderboard</th>
               </tr>
               <tr>
                 <th>#</th>
@@ -72,10 +73,10 @@ class App extends Component {
     } else {
       return (
         <div className="App">
-          <table>
+          <table className="table">
             <tbody>
               <tr>
-                <th>Leaderboard</th>
+                <th className="title">Leaderboard</th>
               </tr>
               <tr>
                 <th>#</th>
