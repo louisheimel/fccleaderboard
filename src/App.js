@@ -94,6 +94,7 @@ class App extends Component {
               )}
             </tbody>
           </table>
+          <a href="https://github.com/louisheimel/fccleaderboard">Code Repository</a>
         </div>
       );
     }
